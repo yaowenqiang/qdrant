@@ -26,4 +26,5 @@ dot product
 
 
 
+> pip install qdrant-client jupyterlab numpy requests tensorflow tensorflow-hub tiktoken
 
