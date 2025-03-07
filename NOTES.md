@@ -28,3 +28,27 @@ dot product
 
 > pip install qdrant-client jupyterlab numpy requests tensorflow tensorflow-hub tiktoken
 
+
+## collections
+
++ vectors
+  + Named Vectors
+  + Unnamed Vectors
++ Payload
+  + Integer
+  + Float
+  + Bool
+  + Keyword
+  + Geo
++ Distance metrics
+  + Cosine
+  + Dot
+  + Euclidean
+  + Manhattan
+
+```
+docker run -p 6333:6333 -p 6334:6334 \ 
+-v "$(pwd)/qdrant_storage:/qdrant/storage:z" \ 
+qdrant/qdrant
+
+```
