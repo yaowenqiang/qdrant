@@ -58,3 +58,25 @@ qdrant/qdrant
 ## import datasets
 
 > https://qdrant.tech/documentation/datasets/
+
+
+## Searching for similar Vectors and Filtering the results based on Payload fields
+
+
+### Filtering clause
+
++ Must
++ Should
++ Must Not
+
+### Filtering Conditions
+
++ Match
++ MatchAny
++ Match Except
++ Nested Keyword
++ Full text
++ Range
++ Geo
++ Is Empty/Is Null
++ Has ID
